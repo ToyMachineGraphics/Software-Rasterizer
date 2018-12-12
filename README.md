@@ -7,14 +7,17 @@ SDL based software rasterizer.
 
 ## Features
 * Texture Mapping
-  * Perspective Correction
+  * Perspective Correction \
     ![Alt perspective correction](gallery/perspective-correction.jpg)
+
 * Face Culling
   * Back Culling
-  * Front Culling
+  * Front Culling \
     ![Alt front-face culling](gallery/front-face-culling.gif)
-* Depth Test
+
+* Depth Test \
   ![Alt depth test](gallery/depth-test.gif)
+
 * Lighting
-  * Phong Shading
+  * Phong Shading \
     ![Alt phong shading](gallery/phong-shading.gif)
