@@ -14,7 +14,7 @@ SDL based software rasterizer.
   * Front Culling
     ![Alt front-face-culling](gallery/front-face-culling.gif)
 * Depth Test
-  ![Alt depth-test](depth-test.gif)
+  ![Alt depth test](depth-test.gif)
 * Lighting
   * Phong Shading
     ![Alt phong-shading](gallery/phong-shading.gif)
