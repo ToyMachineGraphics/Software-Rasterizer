@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\SDL_wrapper.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\context.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rasterize\rasterize.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\depth_test.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\mesh.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texture.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\phong_shading.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\geometry\vec2.hpp">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\geometry\vec3.hpp">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\geometry\type.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\transform\matrix.hpp">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\geometry\vec4.hpp">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\context.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lib\SDL_wrapper.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rasterize\rasterize.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\camera.hpp">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\app\depth_test.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\geometry\mesh.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\transform\transform.hpp">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="third_party\image\stb_image.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\texture.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader\vertex_shader.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader\base_color_vert.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader\base_uv_vert.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader\fragment_shader.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader\base_color_frag.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader\base_uv_frag.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader\phong_shading_vert.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader\phong_shading_frag.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\app\phong_shading.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="include\app\scene.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
