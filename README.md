@@ -1,4 +1,4 @@
-# Software-Rasterizer
+# Software Rasterizer
 SDL based software rasterizer.
 
 ## Dependencies
