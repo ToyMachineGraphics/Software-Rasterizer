@@ -3,7 +3,6 @@
 #define STBI_ONLY_PNG
 #include "image/stb_image.h"
 
-#include <iostream>
 namespace SoftwareRenderer
 {
 	Texture::Texture() : _pixels(nullptr)
@@ -26,6 +25,7 @@ namespace SoftwareRenderer
 	{
 		if (_pixels) {
 			stbi_image_free(_pixels);
+			_pixels = nullptr;
 		}
 	}
 

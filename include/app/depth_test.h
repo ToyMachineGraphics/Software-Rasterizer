@@ -20,6 +20,7 @@ class DepthTest : public Scene
 {
 public:
 	DepthTest();
+	~DepthTest() override {}
 private:
 	void RenderTask() override;
 	void LeftKeyDownTask() override {}

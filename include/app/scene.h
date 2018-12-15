@@ -4,6 +4,8 @@
 class Scene
 {
 public:
+	virtual ~Scene() {};
+
 	void Render()
 	{
 		RenderTask();

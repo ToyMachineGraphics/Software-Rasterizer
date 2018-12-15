@@ -16,6 +16,7 @@ class PhongShading : public Scene
 {
 public:
 	PhongShading();
+	~PhongShading() override {};
 
 private:
 	void RenderTask() override;
