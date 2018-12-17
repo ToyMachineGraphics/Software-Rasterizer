@@ -3,7 +3,7 @@ SDL based software rasterizer.
 
 ## Dependencies
 * SDL2 2.0.9
-* stb_image
+* stb_image v2.19
 
 ## Features
 * Texture Mapping
